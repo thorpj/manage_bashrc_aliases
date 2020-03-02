@@ -7,6 +7,7 @@ gi: git
 gu: git
 gitp: git pull
 gits: git status
+gitd: git diff
 gitstat: git status
 gitaddall: git add .
 gitcom: git commit -m
@@ -16,3 +17,17 @@ gitpush: git push
 gitaddorigin: git remote add origin
 gitsetupstream: git push --set-upstream origin
 vi: vim
+is: sudo apt install -y
+ud: sudo apt update
+ug: sudo apt upgrade -y
+udg: ud && ug
+dudg: udg && sudo apt dist-upgrade
+re: sudo apt remove
+"..": cd ..
+grep: grep --color=auto
+makedirs: mkdir -pv
+ports: netstat -tulanp
+df: df -H
+du: du -ch
+dnsflush: sudo systemd-resolve --flush-caches
+dnscache: sudo systemd-resolve --statistics
