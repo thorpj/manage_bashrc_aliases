@@ -5,15 +5,18 @@ untar: tar -zxf
 c: clear
 gi: git
 gu: git
+gita: git add .
 gitp: git pull
 gits: git status
 gitd: git diff
+gitc: git commit -m
 gitstat: git status
 gitaddall: git add .
 gitcom: git commit -m
 gitpushom: git push origin master
 gitpom: git push origin master
 gitpush: git push
+gitpsuh: git push
 gitaddorigin: git remote add origin
 gitsetupstream: git push --set-upstream origin
 vi: vim
