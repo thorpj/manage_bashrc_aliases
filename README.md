@@ -4,13 +4,11 @@
 ```
 echo 'ruby $HOME/git/manage_bashrc_aliases/update_aliases.rb' >> ~/.bashrc
 echo 'source $HOME/.aliases.sh' >> ~/.bashrc
-touch ~/.aliases.yaml
 ```
 
 # Configuration
-* Configure paths within the script.
-
-* Configure aliases within the config script.
+* Configure paths within the script. Defautl aliases config path is <repo path>/aliases.yaml and default aliases bash file path is $HOME/.aliases.sh
+* Configure aliases within the aliases config script
 
 the format is key: value, where key is the alias and value is the bash command to execute
 
