@@ -1,5 +1,5 @@
 require 'yaml'
-config_path = File.join(Dir.home, ".aliases.yaml")
+config_path = File.join(File.dirname(__FILE__), "aliases.yaml")
 aliases_path = File.join(Dir.home, ".aliases.sh")
 
 class Alias

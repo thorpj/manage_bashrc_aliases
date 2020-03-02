@@ -1,0 +1,18 @@
+---
+shut: shutdown -h now
+rebo: reboot
+untar: tar -zxf
+c: clear
+gi: git
+gu: git
+gitp: git pull
+gits: git status
+gitstat: git status
+gitaddall: git add .
+gitcom: git commit -m
+gitpushom: git push origin master
+gitpom: git push origin master
+gitpush: git push
+gitaddorigin: git remote add origin
+gitsetupstream: git push --set-upstream origin
+vi: vim
