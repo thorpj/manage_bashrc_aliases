@@ -37,7 +37,7 @@ class AliasStore
         File.open(aliases_path, 'w') do |file|
             aliases.each do |a|
                 file.write("alias #{a.key}='#{a.value}'\n")
-                puts "alias #{a.key}='#{a.value}'"
+                # puts "alias #{a.key}='#{a.value}'"
             end
         end
     end

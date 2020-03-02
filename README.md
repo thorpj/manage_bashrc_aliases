@@ -2,6 +2,7 @@
 
 # Setup
 ```
+echo 'ruby $HOME/git/manage_bashrc_aliases/update_aliases.rb' >> ~/.bashrc
 echo 'source $HOME/.aliases.sh' >> ~/.bashrc
 touch ~/.aliases.yaml
 ```
